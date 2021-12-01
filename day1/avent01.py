@@ -1,4 +1,4 @@
-f = open("input01.txt", "r")
+f = open("day1/input01.txt", "r")
 lines = f.read().splitlines()
 
 numbers = [int(line) for line in lines]
