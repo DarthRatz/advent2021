@@ -1,3 +1,4 @@
+# f = open("day1/test01.txt", "r")
 f = open("day1/input01.txt", "r")
 lines = f.read().splitlines()
 
