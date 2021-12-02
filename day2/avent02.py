@@ -8,14 +8,14 @@ horizontal = 0
 aim = 0
 depth = 0
 for instruction in instructions:
-    if instruction[0] == 'forward':
+    if instruction[0] == "forward":
         horizontal += int(instruction[1])
         depth += int(instruction[1]) * aim
-    if instruction[0] == 'down':
+    if instruction[0] == "down":
         aim += int(instruction[1])
-    if instruction[0] == 'up':
+    if instruction[0] == "up":
         aim -= int(instruction[1])
 
 print(depth)
 print(horizontal)
-print(depth*horizontal)
+print(depth * horizontal)
