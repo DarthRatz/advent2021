@@ -1,5 +1,5 @@
-# f = open("day2/test02.txt", "r")
-f = open("day2/input02.txt", "r")
+# f = open("day02/test02.txt", "r")
+f = open("day02/input02.txt", "r")
 lines = f.readlines()
 
 instructions = [tuple(line.split()) for line in lines]
