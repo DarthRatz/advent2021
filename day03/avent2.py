@@ -4,6 +4,7 @@ lines = f.readlines()
 
 instructions = [str(line).strip() for line in lines]
 
+
 def common(transpose):
     most_common = ""
     least_common = ""
@@ -17,6 +18,7 @@ def common(transpose):
             most_common += "0"
             least_common += "1"
     return most_common, least_common
+
 
 oxygen = instructions.copy()
 pos = 0
